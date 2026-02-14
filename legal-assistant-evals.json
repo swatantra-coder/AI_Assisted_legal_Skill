@@ -1,0 +1,151 @@
+[
+  {
+    "id": "eval-0-contract-review",
+    "prompt": "Review this employment agreement clause and identify any issues:\n\n'Employee agrees to assign to Company all inventions, discoveries, and ideas conceived or developed during employment, whether or not related to Company's business, and whether conceived during or outside business hours.'\n\nClient is the employee. What are the problems and how should we revise it?",
+    "files": [],
+    "expectations": [
+      "Identifies overbroad scope (includes non-work-related inventions)",
+      "Notes potential unenforceability depending on jurisdiction",
+      "References state laws that limit IP assignment (e.g., California Labor Code § 2870)",
+      "Provides specific redline language limiting to work-related inventions",
+      "Explains why overly broad IP clauses are problematic for employees"
+    ]
+  },
+  {
+    "id": "eval-1-legal-research",
+    "prompt": "I need to research qualified immunity for police officers in the Ninth Circuit. Specifically, can an officer be held liable for using a taser on a non-threatening, compliant suspect? Focus on clearly established law as of 2020.",
+    "files": [],
+    "expectations": [
+      "Explains qualified immunity standard (clearly established law)",
+      "Discusses Ninth Circuit precedent on excessive force and tasers",
+      "References key cases (e.g., Bryan v. MacPherson, Mattos v. Agarano, or similar)",
+      "Analyzes whether right was clearly established in this specific context",
+      "Notes that qualified immunity is highly fact-specific",
+      "Provides proper case citations"
+    ]
+  },
+  {
+    "id": "eval-2-motion-drafting",
+    "prompt": "Draft the argument section for a motion to compel discovery. Opposing party failed to respond to our interrogatories within 30 days (served on January 15, today is March 1). This is federal court. We sent a meet-and-confer letter on February 20 but received no response. We need the discovery for depositions scheduled in 3 weeks.",
+    "files": [],
+    "expectations": [
+      "Cites Federal Rule of Civil Procedure 37(a)",
+      "Notes the 30-day response deadline under FRCP 33",
+      "Demonstrates good faith meet-and-confer effort as required",
+      "Requests appropriate relief (order to compel, attorney's fees)",
+      "Uses proper motion structure with legal standard section",
+      "Notes the scheduling urgency without being hyperbolic",
+      "Includes statement that opposing party waived objections by failing to respond"
+    ]
+  },
+  {
+    "id": "eval-3-case-brief",
+    "prompt": "Brief the case *Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc.*, 467 U.S. 837 (1984). I need to understand the two-step framework and when it applies.",
+    "files": [],
+    "expectations": [
+      "Accurately describes Chevron two-step framework",
+      "Step 1: Whether Congress directly addressed the precise question",
+      "Step 2: Whether agency's interpretation is reasonable/permissible",
+      "Explains standard of review (defer to agency if reasonable)",
+      "Notes this applies to agency statutory interpretation",
+      "Provides accurate citation",
+      "Includes useful quotes with pinpoint citations"
+    ]
+  },
+  {
+    "id": "eval-4-contract-drafting",
+    "prompt": "Draft a mutual non-disclosure agreement for two companies discussing a potential partnership. Keep it balanced (neither party favored). Include standard provisions. Governing law should be Delaware.",
+    "files": [],
+    "expectations": [
+      "Includes definition of confidential information",
+      "Has mutual obligations (both parties bound)",
+      "Specifies term/duration",
+      "Lists permitted disclosures/exceptions",
+      "Includes return or destruction of materials provision",
+      "Has remedy provisions (injunctive relief language)",
+      "Specifies Delaware governing law",
+      "Includes signature blocks for both parties",
+      "Uses clear, precise language",
+      "No party is favored over the other"
+    ]
+  },
+  {
+    "id": "eval-5-due-diligence",
+    "prompt": "Client is acquiring a small software company. Create a due diligence checklist focusing on the most critical items for a tech company acquisition. Prioritize the top 10 items we absolutely must review.",
+    "files": [],
+    "expectations": [
+      "Includes IP ownership and registrations (critical for software company)",
+      "Customer contracts and recurring revenue",
+      "Employee agreements and contractor status",
+      "Source code ownership and third-party licenses",
+      "Data privacy compliance and security",
+      "Litigation and disputes",
+      "Cap table and ownership structure",
+      "Material contracts and liabilities",
+      "Prioritizes items logically for tech acquisition",
+      "Explains why each item matters"
+    ]
+  },
+  {
+    "id": "eval-6-statutory-interpretation",
+    "prompt": "Help me interpret this statute: 'No vehicle shall enter the park.' Does this prohibit: (a) ambulances responding to emergencies, (b) electric wheelchairs, (c) baby strollers, (d) bicycles? Analyze using statutory interpretation principles.",
+    "files": [],
+    "expectations": [
+      "Applies textualist analysis (plain meaning of 'vehicle')",
+      "Considers purpose of the rule (likely safety, preservation)",
+      "Applies canons of construction",
+      "Distinguishes between items based on rationale",
+      "Likely allows ambulances (emergency exception, purpose)",
+      "Analyzes wheelchairs/strollers (assistive devices vs. vehicles)",
+      "Considers legislative intent and absurdity doctrine",
+      "Shows reasoning for each item rather than conclusory answers"
+    ]
+  },
+  {
+    "id": "eval-7-email-to-client",
+    "prompt": "Draft an email to a client explaining that the statute of limitations has expired on their potential claim. They came to us 4 years after the incident. Be clear but compassionate. The statute of limitations was 3 years.",
+    "files": [],
+    "expectations": [
+      "Opens professionally and compassionately",
+      "Clearly explains statute of limitations concept in plain language",
+      "States the specific deadline that passed",
+      "Explains why this bars the claim",
+      "Avoids giving false hope while being empathetic",
+      "Does not admit fault or malpractice",
+      "May note limited exceptions (tolling) if applicable",
+      "Provides next steps or closure",
+      "Professional tone appropriate for client communication"
+    ]
+  },
+  {
+    "id": "eval-8-privilege-analysis",
+    "prompt": "Client forwarded an email from their attorney to their business partner. The email contained legal advice about the deal they're working on together. Opposing counsel is demanding production. Is it still privileged?",
+    "files": [],
+    "expectations": [
+      "Identifies attorney-client privilege issue",
+      "Explains that disclosure to third party generally waives privilege",
+      "Notes exception for common interest/joint defense in some cases",
+      "Analyzes whether business partner qualifies for common interest",
+      "Considers whether the deal context supports common interest",
+      "Notes this is fact-specific and jurisdiction-dependent",
+      "Recommends asserting privilege subject to argument",
+      "Flags as requiring careful analysis and possible motion practice"
+    ]
+  },
+  {
+    "id": "eval-9-multi-jurisdiction",
+    "prompt": "Client signed a contract in California with a New York company. The contract says 'governed by New York law' and 'exclusive jurisdiction in New York courts.' Client lives in California and the work was performed in California. Client wants to sue in California. Can we?",
+    "files": [],
+    "expectations": [
+      "Identifies forum selection and choice of law clauses",
+      "Explains these clauses are generally enforceable",
+      "Notes potential exceptions (unconscionability, public policy)",
+      "Distinguishes between mandatory and permissive language",
+      "Analyzes 'exclusive jurisdiction' language as mandatory",
+      "Discusses potential challenges but likely outcome",
+      "Notes practical considerations (cost, convenience)",
+      "Likely conclusion: bound by forum selection absent extraordinary circumstances",
+      "Flags this as requiring careful analysis of full contract"
+    ]
+  }
+]
